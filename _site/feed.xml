@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>News 'n' Updates | Jekyll Minimal Theme</title>
+  <link href="http://henrythemes.github.io/jekyll-minimal-theme/feed.xml" rel="self"/>
+  <link href="http://henrythemes.github.io/jekyll-minimal-theme/"/>
+  <updated>2017-01-18T22:14:55+00:00</updated>
+  <id>http://henrythemes.github.io/jekyll-minimal-theme/</id>
+  <author>
+    <name>Jekyll Minimal Theme Team</name>
+  </author>
+  <generator>Jekyll v3.3.1</generator>
+
+  
+  <entry>
+    <title>Opinion, Magento 2 or Magento 1?</title>
+    <link href="http://henrythemes.github.io/jekyll-minimal-theme/magento-1-or-magento-2.html"/>
+    <updated>2017-01-15T00:00:00+00:00</updated>
+    <id>http://henrythemes.github.io/jekyll-minimal-theme/magento-1-or-magento-2</id>
+    <content type="html">&lt;p&gt;#Opinion, Magento 2 or Magento 1?&lt;/p&gt;
+
+&lt;p&gt;Is it really worth to deliver a project based on Magento 2 in this current state of development?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;For the company I work for, mostly no.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;magento-2-is-wonderful-but-still-under-massive-changes-and-improvements&quot;&gt;Magento 2 is wonderful, but still under massive changes and improvements&lt;/h3&gt;
+&lt;p&gt;It’s january 2017 and more than year has already passed sincce Magento 2 officiale release.
+As a web developer used to rely on opensource projects, I really appreciate the efforts that every community puts in place to make a platform really great and I aslo understand the difficulties a new release may have to walk thorugh.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The community edition of Magento 2 has a huge number of open issues&lt;/strong&gt; and in the past days I read comments on github and &lt;a href=&quot;http://webshopapps.com/blog/2017/01/what-magento-should-spend-some-of-that-250m-on/&quot; title=&quot;What Magento Should spend some of that 250M on&quot;&gt;a post by a gold partner&lt;/a&gt; that make you seriously think twice before starting a project to the world.&lt;/p&gt;
+
+&lt;p&gt;Two months ago I also started my official and planned study of the new platform. Currently half way to the end of the course, I find &lt;strong&gt;Magento has completely changed from the version 1&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;There is a &lt;strong&gt;massive difference&lt;/strong&gt; between very small company applications and big enterprises solutions. Magento 1, somehow, represents a solutions that can address the online needs of a small shop and can scale up to big projects where computational requirements can be split across different servers.&lt;/p&gt;
+
+&lt;h3 id=&quot;for-big-companies&quot;&gt;For big companies&lt;/h3&gt;
+&lt;p&gt;Magento 2 seem to have completely forgotten the really small business and becomes the best ecommerce platform only in the hands of a big company, with a structured web development department.&lt;/p&gt;
+
+&lt;p&gt;The small developer, and the medium company, have to set aside their desires of “fast and different projects” and think instead on a bigger scale. Plan ahead the development, its required test phases, and plan ahead the adoption of technologies, frameworks and assets that may speed up any possible process.&lt;/p&gt;
+
+&lt;h3 id=&quot;fast-on-big-implementations&quot;&gt;Fast on big implementations&lt;/h3&gt;
+&lt;p&gt;I read about people complaining about Magento 2 speed. On a development environment is slow. I complain about it too. But the more I study, and through the experience I gathered with the amazing &lt;strong&gt;php framework Laravel&lt;/strong&gt;, and the more I realise Magento 2 development requires me to change my way of coding.&lt;/p&gt;
+
+&lt;p&gt;No more, tweaks, test, tweak, test, works, refactor, test, go. 
+Will have to be more a think, design, think, check, think, adjust and finally test. More observations, reasoning, and lesstime wasted in coding.&lt;/p&gt;
+
+&lt;p&gt;As I read on &lt;a href=&quot;http://jamescowie.me/blog/2016/12/all-hail-xdebug-and-lets-let-var-dump-die/&quot; title=&quot;James Cowie's Magento 2 blog - All hail Xdebug and lets let var dump die&quot;&gt;James Cowie blog&lt;/a&gt;, it’s time to abandon var_dump/die in favor of xdebug for a better way of coding.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-it-magento-2-ready-to-begin-a-project&quot;&gt;is it Magento 2 ready to begin a project?&lt;/h3&gt;
+&lt;p&gt;Yes, but if you plan to avoid a proper coding environment without tools for tests automation, debugging, tasks automation (I read grunt is the fastest at the minute), css compilation, deployment automation, you should wait another 6 months longer before beginning to work on Magento 2.&lt;/p&gt;
+
+&lt;p&gt;Angelo
+&lt;em&gt;(image credits &lt;a href=&quot;https://unsplash.com/@qtip94ramey&quot; title=&quot;Michael Ramey&quot;&gt;Michael Ramey&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+</feed>
