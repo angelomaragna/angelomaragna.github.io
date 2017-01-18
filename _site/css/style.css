@@ -141,17 +141,18 @@ table tr:nth-child(odd) th {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+  min-height: 2rem;
 }
 .masthead .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #F9F9F9;
 }
 .masthead .masthead-title a {
-  color: #505050;
+  color: #F9F9F9;
 }
 .masthead .masthead-title small {
-  color: #C0C0C0;
+  color: #F9F9F9;
   font-size: 75%;
   font-weight: 400;
   letter-spacing: 0;
