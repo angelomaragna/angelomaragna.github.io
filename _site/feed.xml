@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>News 'n' Updates | Jekyll Minimal Theme</title>
-  <link href="http://henrythemes.github.io/jekyll-minimal-theme/feed.xml" rel="self"/>
-  <link href="http://henrythemes.github.io/jekyll-minimal-theme/"/>
-  <updated>2017-01-18T22:14:55+00:00</updated>
-  <id>http://henrythemes.github.io/jekyll-minimal-theme/</id>
+  <title>News 'n' Updates | Tales from a Mage</title>
+  <link href="http://angelomaragna.github.io//feed.xml" rel="self"/>
+  <link href="http://angelomaragna.github.io//"/>
+  <updated>2017-01-18T22:25:11+00:00</updated>
+  <id>http://angelomaragna.github.io//</id>
   <author>
-    <name>Jekyll Minimal Theme Team</name>
+    <name>Angelo Maragna</name>
   </author>
   <generator>Jekyll v3.3.1</generator>
 
   
   <entry>
     <title>Opinion, Magento 2 or Magento 1?</title>
-    <link href="http://henrythemes.github.io/jekyll-minimal-theme/magento-1-or-magento-2.html"/>
+    <link href="http://angelomaragna.github.io//magento-1-or-magento-2.html"/>
     <updated>2017-01-15T00:00:00+00:00</updated>
-    <id>http://henrythemes.github.io/jekyll-minimal-theme/magento-1-or-magento-2</id>
+    <id>http://angelomaragna.github.io//magento-1-or-magento-2</id>
     <content type="html">&lt;p&gt;#Opinion, Magento 2 or Magento 1?&lt;/p&gt;
 
 &lt;p&gt;Is it really worth to deliver a project based on Magento 2 in this current state of development?&lt;/p&gt;
