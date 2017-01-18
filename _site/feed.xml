@@ -3,7 +3,7 @@
   <title>News 'n' Updates | Tales from a Mage</title>
   <link href="http://angelomaragna.github.io//feed.xml" rel="self"/>
   <link href="http://angelomaragna.github.io//"/>
-  <updated>2017-01-18T22:44:08+00:00</updated>
+  <updated>2017-01-18T22:46:38+00:00</updated>
   <id>http://angelomaragna.github.io//</id>
   <author>
     <name>Angelo Maragna</name>
@@ -19,6 +19,8 @@
     <content type="html">&lt;p&gt;#Opinion, Magento 2 or Magento 1?&lt;/p&gt;
 
 &lt;p&gt;Is it really worth to deliver a project based on Magento 2 in this current state of development?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/blog.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;For the company I work for, mostly no.&lt;/strong&gt;&lt;/p&gt;
 
