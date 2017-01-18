@@ -137,7 +137,6 @@ table tr:nth-child(odd) th {
 }
 
 .masthead {
-  background: url("../images/blog.jpg") center center no-repeat;
   background-size: cover;
   padding-top: 1rem;
   padding-bottom: 1rem;
