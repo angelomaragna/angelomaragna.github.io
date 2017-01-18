@@ -142,7 +142,6 @@ table tr:nth-child(odd) th {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  min-height: 150px;
 }
 .masthead .masthead-title {
   margin-top: 0;
