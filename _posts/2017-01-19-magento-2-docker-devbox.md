@@ -1,4 +1,8 @@
-#Magento 2 devbox - Docker quick start guide
+---
+layout: post
+title: "Magento 2 devbox - Docker quick start guide"
+---
+##Magento 2 devbox - Docker quick start guide
 
 _[this document is a work in progess]_
 
