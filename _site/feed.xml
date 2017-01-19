@@ -3,7 +3,7 @@
   <title>News 'n' Updates | Tales from a Mage</title>
   <link href="http://angelomaragna.github.io//feed.xml" rel="self"/>
   <link href="http://angelomaragna.github.io//"/>
-  <updated>2017-01-19T23:48:13+00:00</updated>
+  <updated>2017-01-19T23:49:05+00:00</updated>
   <id>http://angelomaragna.github.io//</id>
   <author>
     <name>Angelo Maragna</name>
@@ -12,14 +12,12 @@
 
   
   <entry>
-    <title>Magento 2 devbox - Docker quick start guide</title>
+    <title>Magento 2 devbox - Docker quick start guide [PART 1]</title>
     <link href="http://angelomaragna.github.io//magento-2-docker-devbox.html"/>
     <updated>2017-01-19T00:00:00+00:00</updated>
     <id>http://angelomaragna.github.io//magento-2-docker-devbox</id>
     <content type="html">&lt;h2 id=&quot;magento-2-devbox---docker-quick-start-guide-part-1&quot;&gt;Magento 2 devbox - Docker quick start guide [PART 1]&lt;/h2&gt;
-&lt;h3 id=&quot;firing-up-the-container&quot;&gt;Firing up the container&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;[this document is a work in progess]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Firing up the container&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This guide, was tried on macOS SIERRA where Docker was already installed.
 A brief introduction about Docker. Docker is a virtualization environment where you will use one or more images be fired up into “containers” and use only those bits of environment you will need for your work.

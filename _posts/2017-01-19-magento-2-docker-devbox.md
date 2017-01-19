@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Magento 2 devbox - Docker quick start guide"
+title: "Magento 2 devbox - Docker quick start guide [PART 1]"
 ---
 ## Magento 2 devbox - Docker quick start guide [PART 1]
-### Firing up the container
+_Firing up the container_
 
-_[this document is a work in progess]_
+
 
 This guide, was tried on macOS SIERRA where Docker was already installed.
 A brief introduction about Docker. Docker is a virtualization environment where you will use one or more images be fired up into "containers" and use only those bits of environment you will need for your work.
