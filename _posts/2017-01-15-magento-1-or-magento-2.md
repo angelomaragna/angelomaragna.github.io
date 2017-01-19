@@ -2,7 +2,7 @@
 layout: post
 title: "Opinion, Magento 2 or Magento 1?"
 ---
-#Opinion, Magento 2 or Magento 1?
+## Opinion, Magento 2 or Magento 1?
 
 Is it really worth to deliver a project based on Magento 2 in this current state of development?
 

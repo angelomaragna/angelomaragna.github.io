@@ -3,7 +3,7 @@
   <title>News 'n' Updates | Tales from a Mage</title>
   <link href="http://angelomaragna.github.io//feed.xml" rel="self"/>
   <link href="http://angelomaragna.github.io//"/>
-  <updated>2017-01-19T23:16:37+00:00</updated>
+  <updated>2017-01-19T23:18:01+00:00</updated>
   <id>http://angelomaragna.github.io//</id>
   <author>
     <name>Angelo Maragna</name>
@@ -16,7 +16,7 @@
     <link href="http://angelomaragna.github.io//magento-2-docker-devbox.html"/>
     <updated>2017-01-19T00:00:00+00:00</updated>
     <id>http://angelomaragna.github.io//magento-2-docker-devbox</id>
-    <content type="html">&lt;p&gt;##Magento 2 devbox - Docker quick start guide&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;magento-2-devbox---docker-quick-start-guide&quot;&gt;Magento 2 devbox - Docker quick start guide&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;[this document is a work in progess]&lt;/em&gt;&lt;/p&gt;
 
@@ -50,7 +50,7 @@ With this command we tell docker to build a custom image named “magento2devbox
     <link href="http://angelomaragna.github.io//magento-1-or-magento-2.html"/>
     <updated>2017-01-15T00:00:00+00:00</updated>
     <id>http://angelomaragna.github.io//magento-1-or-magento-2</id>
-    <content type="html">&lt;p&gt;#Opinion, Magento 2 or Magento 1?&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;opinion-magento-2-or-magento-1&quot;&gt;Opinion, Magento 2 or Magento 1?&lt;/h2&gt;
 
 &lt;p&gt;Is it really worth to deliver a project based on Magento 2 in this current state of development?&lt;/p&gt;
 
