@@ -2,7 +2,8 @@
 layout: post
 title: "Magento 2 devbox - Docker quick start guide"
 ---
-## Magento 2 devbox - Docker quick start guide
+## Magento 2 devbox - Docker quick start guide [PART 1]
+### Firing up the container
 
 _[this document is a work in progess]_
 
@@ -21,14 +22,35 @@ Here the steps to run the environment.
 ```docker build -t magento2devbox ./```
 With this command we tell docker to build a custom image named "magento2devbox". Docker will read the current directory for the Dockerfile containing the configuration a will begin the compilation. You should see it downloading a bunch of "docker containers" and after that the custom commands run a series of initial configurations.
 
-You will now have a new image, ready to be fired into a container. You can check the new image created with:
+You will now have a new image, ready to be fired into a container. You can check a new image "magento2devbox" has been created with:
 ```docker images```
 
+4 **quit any other local web server**
+(please, don't have me say this thing twice...)
 
+5 **fire up your containers**
+```docker run --name devbox -it magento2devbox```
+We now told docker to run a new container from the image "magento2devbox" in interactive mode (-it) and name it "devbox".
+NOTE: you will have to keep this terminal session open as long as you want to use the devbox. You can run the container in background with different commands but as we may like to have everything under control, in this tutorial we will use it this way.
+
+At this point, you will need to open another shell.
+
+6 **check devob is running**
+Run in terminal the command
+```docker ps```
+You should see a line like this
+()[images/docker-ps.png]
+where the column PORTS will tell us on which ports the new container is currently listening.
+
+
+
+
+## Docker command tips
+
+**Stop all containers and delete them all**
+(Note this will not remove the images from your machine)
+```docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)```
 
 
 
 Angelo
-
-_[this document is a work in progess]_
-
