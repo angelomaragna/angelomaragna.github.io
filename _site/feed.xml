@@ -3,7 +3,7 @@
   <title>News 'n' Updates | Tales from a Mage</title>
   <link href="http://angelomaragna.github.io//feed.xml" rel="self"/>
   <link href="http://angelomaragna.github.io//"/>
-  <updated>2017-01-19T23:02:58+00:00</updated>
+  <updated>2017-01-19T23:13:12+00:00</updated>
   <id>http://angelomaragna.github.io//</id>
   <author>
     <name>Angelo Maragna</name>
@@ -18,7 +18,7 @@
     <id>http://angelomaragna.github.io//magento-2-docker-devbox</id>
     <content type="html">&lt;p&gt;#Magento 2 devbox - Docker quick start guide&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;[this document is a work in progess]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;[this document is a work in progess]&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This guide, was tried on macOS SIERRA where Docker was already installed.
 A brief introduction about Docker. Docker is a virtualization environment where you will use one or more images be fired up into “containers” and use only those bits of environment you will need for your work.
@@ -33,11 +33,14 @@ So, you can expect to fire up an httpd (apache) container with no shell access a
 
 &lt;p&gt;3 &lt;strong&gt;Compile our custom image&lt;/strong&gt; (expect it to take while…)
 &lt;code class=&quot;highlighter-rouge&quot;&gt;docker build -t magento2devbox ./&lt;/code&gt;
-you will see Docker downloading a bunch of “docker containers” to compile them all into one customised image.&lt;/p&gt;
+With this command we tell docker to build a custom image named “magento2devbox”. Docker will read the current directory for the Dockerfile containing the configuration a will begin the compilation. You should see it downloading a bunch of “docker containers” and after that the custom commands run a series of initial configurations.&lt;/p&gt;
 
-&lt;p&gt;You will now have a new image, ready to be fired into a container. You can check the new images has been created with:&lt;/p&gt;
+&lt;p&gt;You will now have a new image, ready to be fired into a container. You can check the new image created with:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;docker images&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;[this document is a work in progess]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Angelo&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;[this document is a work in progess]&lt;/em&gt;&lt;/p&gt;
 
 </content>
   </entry>

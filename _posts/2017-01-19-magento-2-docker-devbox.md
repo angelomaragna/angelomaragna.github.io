@@ -1,6 +1,6 @@
 #Magento 2 devbox - Docker quick start guide
 
-__[this document is a work in progess]__
+_[this document is a work in progess]_
 
 This guide, was tried on macOS SIERRA where Docker was already installed.
 A brief introduction about Docker. Docker is a virtualization environment where you will use one or more images be fired up into "containers" and use only those bits of environment you will need for your work.
@@ -15,13 +15,16 @@ Here the steps to run the environment.
 
 3 **Compile our custom image** (expect it to take while...)
 ```docker build -t magento2devbox ./```
-you will see Docker downloading a bunch of "docker containers" to compile them all into one customised image.
+With this command we tell docker to build a custom image named "magento2devbox". Docker will read the current directory for the Dockerfile containing the configuration a will begin the compilation. You should see it downloading a bunch of "docker containers" and after that the custom commands run a series of initial configurations.
 
-You will now have a new image, ready to be fired into a container. You can check the new images has been created with:
-
-
-
+You will now have a new image, ready to be fired into a container. You can check the new image created with:
+```docker images```
 
 
-__[this document is a work in progess]__
+
+
+
+Angelo
+
+_[this document is a work in progess]_
 
