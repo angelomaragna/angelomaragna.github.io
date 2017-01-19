@@ -3,7 +3,7 @@
   <title>News 'n' Updates | Tales from a Mage</title>
   <link href="http://angelomaragna.github.io//feed.xml" rel="self"/>
   <link href="http://angelomaragna.github.io//"/>
-  <updated>2017-01-19T23:49:15+00:00</updated>
+  <updated>2017-01-19T23:51:52+00:00</updated>
   <id>http://angelomaragna.github.io//</id>
   <author>
     <name>Angelo Maragna</name>
@@ -16,8 +16,7 @@
     <link href="http://angelomaragna.github.io//magento-2-docker-devbox.html"/>
     <updated>2017-01-19T00:00:00+00:00</updated>
     <id>http://angelomaragna.github.io//magento-2-docker-devbox</id>
-    <content type="html">&lt;h2 id=&quot;magento-2-devbox---docker-quick-start-guide-part-1&quot;&gt;Magento 2 devbox - Docker quick start guide [PART 1]&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Firing up the container&lt;/em&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;em&gt;Firing up the container&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This guide, was tried on macOS SIERRA where Docker was already installed.
 A brief introduction about Docker. Docker is a virtualization environment where you will use one or more images be fired up into “containers” and use only those bits of environment you will need for your work.
@@ -47,11 +46,11 @@ NOTE: you will have to keep this terminal session open as long as you want to us
 
 &lt;p&gt;At this point, you will need to open another shell.&lt;/p&gt;
 
-&lt;p&gt;6 &lt;strong&gt;check devob is running&lt;/strong&gt;
+&lt;p&gt;6 &lt;strong&gt;check the devbox is running&lt;/strong&gt;
 Run in terminal the command
 &lt;code class=&quot;highlighter-rouge&quot;&gt;docker ps&lt;/code&gt;
 You should see a line like this
-()[images/docker-ps.png]
+&lt;a href=&quot;images/docker-ps.png&quot;&gt;&lt;/a&gt;
 where the column PORTS will tell us on which ports the new container is currently listening.&lt;/p&gt;
 
 &lt;h2 id=&quot;docker-command-tips&quot;&gt;Docker command tips&lt;/h2&gt;
@@ -69,9 +68,7 @@ where the column PORTS will tell us on which ports the new container is currentl
     <link href="http://angelomaragna.github.io//magento-1-or-magento-2.html"/>
     <updated>2017-01-15T00:00:00+00:00</updated>
     <id>http://angelomaragna.github.io//magento-1-or-magento-2</id>
-    <content type="html">&lt;h2 id=&quot;opinion-magento-2-or-magento-1&quot;&gt;Opinion, Magento 2 or Magento 1?&lt;/h2&gt;
-
-&lt;p&gt;Is it really worth to deliver a project based on Magento 2 in this current state of development?&lt;/p&gt;
+    <content type="html">&lt;p&gt;Is it really worth to deliver a project based on Magento 2 in this current state of development?&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;images/blog.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 

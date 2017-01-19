@@ -2,7 +2,6 @@
 layout: post
 title: "Magento 2 devbox - Docker quick start guide [PART 1]"
 ---
-## Magento 2 devbox - Docker quick start guide [PART 1]
 _Firing up the container_
 
 
@@ -35,11 +34,11 @@ NOTE: you will have to keep this terminal session open as long as you want to us
 
 At this point, you will need to open another shell.
 
-6 **check devob is running**
+6 **check the devbox is running**
 Run in terminal the command
 ```docker ps```
 You should see a line like this
-()[images/docker-ps.png]
+[](images/docker-ps.png)
 where the column PORTS will tell us on which ports the new container is currently listening.
 
 
