@@ -51,7 +51,8 @@ Now, you can login open your browser to your localhost and log into your contain
 ```ssh magento2@127.0.0.1```
 Environment up, running and ready to go. 
 
- ¯\_ (ツ) _/¯
+[...to be continued]
+
 
 
 
