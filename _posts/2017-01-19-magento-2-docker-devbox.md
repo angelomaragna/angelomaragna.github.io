@@ -38,6 +38,7 @@ NOTE: you will have to keep this terminal session open as long as you want to us
 At this point, you will need to open another shell.
 
 6 **check the devbox is running**
+
 Run in terminal the command
 ```docker ps```
 You should see a line like this:
