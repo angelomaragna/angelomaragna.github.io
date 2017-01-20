@@ -8,13 +8,12 @@ _Firing up the container_
 
 This guide, was tried on macOS SIERRA where Docker was already installed.
 
-A brief introduction about Docker. 
-_Docker is a virtualization environment where you will use one or more images fired up into "containers" for your work.
+First of all, a brief introduction. Docker is a virtualization environment where you will use one or more images fired up into "containers" for your work.
 Images usually represetns those essential parts of the services you need to run, such as the apache web server. Remember, containers are not virtual machines. They run into special environments as if they had their own life. 
-Therefore you can expect to fire up an httpd (apache) container with no shell access at all._
+Therefore you can expect to fire up an httpd (apache) container with no shell access at all.
 
 
-Here are the steps to run the environment. 
+Here are the steps to run Magento 2 devbox into a docker environment. 
 
 1 **Clone the git repository**
 ```git clone https://github.com/magento/magento2devbox-web.git```
@@ -47,13 +46,19 @@ where the column PORTS will tell us on which ports the new container is currentl
 
 
 
+Now, you can login open your browser to your localhost and log into your container with the command
+```ssh magento2@127.0.0.1```
+Environment up, running and ready to go.
+
+
+
+_Angelo_
+
+
+
 
 ## Docker command tips
 
 **Stop all containers and delete them all**
 (Note this will not remove the images from your machine)
 ```docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)```
-
-
-
-Angelo

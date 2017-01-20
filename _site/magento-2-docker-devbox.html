@@ -34,12 +34,11 @@
 
 <p>This guide, was tried on macOS SIERRA where Docker was already installed.</p>
 
-<p>A brief introduction about Docker. 
-<em>Docker is a virtualization environment where you will use one or more images fired up into “containers” for your work.
+<p>First of all, a brief introduction. Docker is a virtualization environment where you will use one or more images fired up into “containers” for your work.
 Images usually represetns those essential parts of the services you need to run, such as the apache web server. Remember, containers are not virtual machines. They run into special environments as if they had their own life. 
-Therefore you can expect to fire up an httpd (apache) container with no shell access at all.</em></p>
+Therefore you can expect to fire up an httpd (apache) container with no shell access at all.</p>
 
-<p>Here are the steps to run the environment.</p>
+<p>Here are the steps to run Magento 2 devbox into a docker environment.</p>
 
 <p>1 <strong>Clone the git repository</strong>
 <code class="highlighter-rouge">git clone https://github.com/magento/magento2devbox-web.git</code></p>
@@ -70,13 +69,17 @@ You should see a line like this
 <a href="images/docker-ps.png"></a>
 where the column PORTS will tell us on which ports the new container is currently listening.</p>
 
+<p>Now, you can login open your browser to your localhost and log into your container with the command
+<code class="highlighter-rouge">ssh magento2@127.0.0.1</code>
+Environment up, running and ready to go.</p>
+
+<p><em>Angelo</em></p>
+
 <h2 id="docker-command-tips">Docker command tips</h2>
 
 <p><strong>Stop all containers and delete them all</strong>
 (Note this will not remove the images from your machine)
 <code class="highlighter-rouge">docker stop $(docker ps -a -q) &amp;&amp; docker rm $(docker ps -a -q)</code></p>
-
-<p>Angelo</p>
 
 </article>
 
