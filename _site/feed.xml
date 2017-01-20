@@ -3,7 +3,7 @@
   <title>News 'n' Updates | Tales from a Mage</title>
   <link href="http://angelomaragna.github.io//feed.xml" rel="self"/>
   <link href="http://angelomaragna.github.io//"/>
-  <updated>2017-01-20T00:11:05+00:00</updated>
+  <updated>2017-01-20T00:14:10+00:00</updated>
   <id>http://angelomaragna.github.io//</id>
   <author>
     <name>Angelo Maragna</name>
@@ -60,13 +60,15 @@ where the column PORTS will tell us on which ports the new container is currentl
 &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh magento2@127.0.0.1&lt;/code&gt;
 Environment up, running and ready to go.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Angelo&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;¯_ (ツ) _/¯&lt;/p&gt;
 
 &lt;h2 id=&quot;docker-command-tips&quot;&gt;Docker command tips&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Stop all containers and delete them all&lt;/strong&gt;
 (Note this will not remove the images from your machine)
 &lt;code class=&quot;highlighter-rouge&quot;&gt;docker stop $(docker ps -a -q) &amp;amp;&amp;amp; docker rm $(docker ps -a -q)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Angelo&lt;/p&gt;
 </content>
   </entry>
   

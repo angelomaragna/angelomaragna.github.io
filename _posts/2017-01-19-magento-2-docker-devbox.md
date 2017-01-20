@@ -49,11 +49,9 @@ where the column PORTS will tell us on which ports the new container is currentl
 
 Now, you can login open your browser to your localhost and log into your container with the command
 ```ssh magento2@127.0.0.1```
-Environment up, running and ready to go.
+Environment up, running and ready to go. 
 
-
-
-_Angelo_
+ ¯\_ (ツ) _/¯
 
 
 
@@ -63,3 +61,6 @@ _Angelo_
 **Stop all containers and delete them all**
 (Note this will not remove the images from your machine)
 ```docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)```
+
+
+Angelo
