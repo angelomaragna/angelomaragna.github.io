@@ -31,8 +31,8 @@ You will now have a new image, ready to be fired into a container. You can check
 (please, don't have me say this thing twice...)
 
 5 **fire up your containers**
-```docker run --name devbox -it magento2devbox```
-We now told docker to run a new container from the image "magento2devbox" in interactive mode (-it) and name it "devbox".
+```docker run --name devbox -p 80:80 -p 22:22 -it magento2devbox```
+We now told docker to run a new container from the image "magento2devbox" in interactive mode (-it) and name it "devbox". We also told it to forward ports 22 and 80 from the host to the container.
 NOTE: you will have to keep this terminal session open as long as you want to use the devbox. You can run the container in background with different commands but as we may like to have everything under control, in this tutorial we will use it this way.
 
 At this point, you will need to open another shell.
@@ -40,8 +40,8 @@ At this point, you will need to open another shell.
 6 **check the devbox is running**
 Run in terminal the command
 ```docker ps```
-You should see a line like this
-[](images/docker-ps.png)
+You should see a line like this:
+![](images/docker-ps.png)
 where the column PORTS will tell us on which ports the new container is currently listening.
 
 

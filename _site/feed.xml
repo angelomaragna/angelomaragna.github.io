@@ -3,7 +3,7 @@
   <title>News 'n' Updates | Tales from a Mage</title>
   <link href="http://angelomaragna.github.io//feed.xml" rel="self"/>
   <link href="http://angelomaragna.github.io//"/>
-  <updated>2017-01-20T00:06:08+00:00</updated>
+  <updated>2017-01-20T00:09:24+00:00</updated>
   <id>http://angelomaragna.github.io//</id>
   <author>
     <name>Angelo Maragna</name>
@@ -42,8 +42,8 @@ With this command we tell docker to build a custom image named “magento2devbox
 (please, don’t have me say this thing twice…)&lt;/p&gt;
 
 &lt;p&gt;5 &lt;strong&gt;fire up your containers&lt;/strong&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;docker run --name devbox -it magento2devbox&lt;/code&gt;
-We now told docker to run a new container from the image “magento2devbox” in interactive mode (-it) and name it “devbox”.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;docker run --name devbox -p 80:80 -p 22:22 -it magento2devbox&lt;/code&gt;
+We now told docker to run a new container from the image “magento2devbox” in interactive mode (-it) and name it “devbox”. We also told it to forward ports 22 and 80 from the host to the container.
 NOTE: you will have to keep this terminal session open as long as you want to use the devbox. You can run the container in background with different commands but as we may like to have everything under control, in this tutorial we will use it this way.&lt;/p&gt;
 
 &lt;p&gt;At this point, you will need to open another shell.&lt;/p&gt;
@@ -51,8 +51,8 @@ NOTE: you will have to keep this terminal session open as long as you want to us
 &lt;p&gt;6 &lt;strong&gt;check the devbox is running&lt;/strong&gt;
 Run in terminal the command
 &lt;code class=&quot;highlighter-rouge&quot;&gt;docker ps&lt;/code&gt;
-You should see a line like this
-&lt;a href=&quot;images/docker-ps.png&quot;&gt;&lt;/a&gt;
+You should see a line like this:
+&lt;img src=&quot;images/docker-ps.png&quot; alt=&quot;&quot; /&gt;
 where the column PORTS will tell us on which ports the new container is currently listening.&lt;/p&gt;
 
 &lt;p&gt;Now, you can login open your browser to your localhost and log into your container with the command
